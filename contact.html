@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kontakt - Witamy w naszej restauracji</title>
+	<link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+	<header>
+		<div class="logo-bar">
+			<a href="index.html">
+				<img class="logo" src="src/logo.png" alt="Logo restauracji">
+			</a>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Start</a></li>
+				<li><a href="">O nas</a></li>
+				<li><a href="">Menu</a></li>
+				<li><a href="">Blog</a></li>
+				<li><a href="contact.html">Kontakt</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="section-contact-form">
+			<div class="section-contact-form-inner">
+				<h1 class="section-header">Napisz do nas</h1>
+				<form action="">
+					<input type="text" placeholder="Twoje imię">
+					<input type="email" placeholder="Twój email">
+					<textarea placeholder="Twoja wiadomość" rows="6"></textarea>
+					<button type="submit">Wyślij</button>
+				</form>
+			</div>
+		</section>
+		<section class="section-map">
+			<picture>
+				<source media="(min-width: 600px)" srcset="src/mapa.jpg">
+				<img src="src/mapa_small.jpg" alt="Mapa z lokalizacją restauracji">
+			</picture>
+		</section>
+	</main>
+	<footer>
+		<p>Restauracja &copy; 2020 Wszelkie prawa zastrzeżone</p>
+	</footer>
+</body>
+</html>
