@@ -165,3 +165,45 @@ a {
 img {
   max-width: 100%; /*obrazki beda dopasowywaly sie do moiejsca, ktore jest, nigdy go nie przekrocza*/
 }
+
+/* 3. Typografia */
+
+p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+@media screen and (min-width: 1024px) {
+  p {
+    font-size: 18px;
+  }
+}
+
+/* 4. Komponenty - to, co sie powtarza np. przycisk, naglowek */
+
+.section-header {
+  padding: 42px 0 20px;
+  font-size: 18px;
+  color: #ff5733;
+}
+
+/* 5. Naglowek */
+
+header {
+  text-align: center;
+}
+
+.logo-bar {
+  background-color: #ff5733;
+  padding: 10px 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .logo-bar {
+    padding: 20px 0;
+  }
+}
+
+.logo-bar img {
+  max-width: 20%; /*logo bedzie sie ladnie dopasowywalo pod wzgledem szerokosci na mniejszych ekranach*/
+}
