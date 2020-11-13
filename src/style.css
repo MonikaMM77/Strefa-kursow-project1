@@ -187,6 +187,12 @@ p {
   color: #ff5733;
 }
 
+@media screen and (min-width: 1024px) {
+  .section-header {
+    padding: 0;
+  }
+}
+
 /* 5. Naglowek */
 
 header {
@@ -296,5 +302,179 @@ nav a {
 @media screen and (min-width: 1024px) {
   nav a {
     font-size: 24px;
+  }
+}
+
+/* 6. Style glownych sekcji */
+
+@media screen and (min-width: 1024px) {
+  .section-welcome h1 {
+    margin: 160px 0 70px;
+    font-size: 70px;
+  }
+  .section-best-meals h1 {
+    margin: 25px 0 50px;
+    font-size: 34px;
+  }
+}
+
+.welcome-first-image {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .welcome-first-image {
+    display: inline-block;
+  }
+}
+
+.section-best-meals {
+  padding: 0 10% 60px;
+}
+
+@media screen and (min-width: 1024px) {
+  .section-best-meals {
+    padding: 0 10% 90px;
+  }
+}
+
+.section-best-meals img {
+  padding-top: 20px;
+  max-width: 20%;
+}
+
+@media screen and (min-width: 1024px) {
+  .section-best-meals img {
+    padding-top: 85px;
+  }
+}
+
+.section-offer {
+  padding: 40px 10% 50px;
+  background: url("desen_tlo.jpg");
+}
+
+@media screen and (min-width: 1024px) {
+  .section-offer {
+    padding: 80px 20% 130px;
+  }
+}
+
+.section-offer-single img {
+  margin: 0 0 30px;
+  max-width: 12%;
+}
+
+.section-offer-single p {
+  color: #fff;
+}
+
+.section-offer-single:first-child {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+  .section-offer-single:first-child {
+    margin-bottom: 80px;
+  }
+}
+
+.section-newsletter {
+  background-color: #efeee9;
+  padding: 47px 0 26px;
+}
+
+@media screen and (min-width: 1024px) {
+  .section-newsletter {
+    padding: 150px 0 26px;
+  }
+}
+
+.section-newsletter h2 {
+  margin: 0 0 24px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #a7a79b;
+}
+
+@media screen and (min-width: 1024px) {
+  .section-newsletter h2 {
+    font-size: 24px;
+  }
+}
+
+.section-newsletter form {
+  margin: 0 0 40px;
+}
+
+.section-newsletter input {
+  display: block;
+  width: 60%;
+  border: 1px solid #d2cfc6;
+  height: 30px;
+  line-height: 1.8;
+  text-transform: uppercase;
+  padding-left: 20px;
+  margin: 0 auto 12px;
+}
+
+@media screen and (min-width: 1024px) {
+  .section-newsletter input {
+    display: inline-block;
+    height: 60px;
+    font-size: 16px;
+  }
+}
+
+.section-newsletter button {
+  padding: 10px 40px;
+  border: 1px solid #a7a79b;
+  background-color: #a7a79b;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 1024px) {
+  .section-newsletter button {
+    padding: 21px 90px;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section-newsletter-wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.social-links img {
+  max-width: 10%;
+}
+
+@media screen and (min-width: 1024px) {
+  .social-links img {
+    margin-top: 90px;
+  }
+}
+
+/* 7. Stopka */
+
+footer p {
+  padding: 20px 0;
+  font-size: 12px;
+  text-align: center;
+  columns: #a7a79b;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1024px) {
+  footer p {
+    padding: 40px 0;
+    font-size: 16px;
   }
 }
