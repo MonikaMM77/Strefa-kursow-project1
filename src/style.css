@@ -271,3 +271,30 @@ header {
   background-color: #fff;
   color: #4c4731;
 }
+
+nav {
+  background-color: #fff;
+  box-shadow: 1px 1px 0 #dedede;
+}
+
+nav li {
+  padding: 15px 0;
+}
+
+@media screen and (min-width: 1024px) {
+  nav li {
+    display: inline-block;
+    padding: 60px;
+  }
+}
+
+nav a {
+  color: #62625c;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 1024px) {
+  nav a {
+    font-size: 24px;
+  }
+}
