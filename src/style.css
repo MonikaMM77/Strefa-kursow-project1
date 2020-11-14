@@ -462,6 +462,106 @@ nav a {
   }
 }
 
+.section-contact-form h1 {
+  margin: 50px 0 40px;
+}
+
+@media screen and (min-width: 1024px) {
+  .section-contact-form h1 {
+    margin: 120px 0 100px;
+    font-size: 70px;
+  }
+}
+
+.section-contact-form-inner {
+  width: 80%;
+  padding: 18px 0 24px;
+  margin: 0 auto;
+  border-bottom: 1px dashed #a7a79b;
+}
+
+@media screen and (min-width: 1024px) {
+  .section-contact-form-inner {
+    padding: 18px 0 70px;
+  }
+}
+
+.section-contact-form input,
+.section-contact-form textarea {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 12px;
+  border: 1px solid #d2cfc6;
+}
+
+@media screen and (min-width: 1024px) {
+  .section-contact-form input,
+  .section-contact-form textarea {
+    width: 70%;
+  }
+}
+
+.section-contact-form input {
+  height: 28px;
+}
+
+@media screen and (min-width: 1024px) {
+  .section-contact-form input {
+    height: 60px;
+    font-size: 16px;
+  }
+}
+
+.section-contact-form textarea {
+  height: 180px;
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 1024px) {
+  .section-contact-form textarea {
+    height: 300px;
+  }
+}
+
+.section-contact-form button {
+  padding: 10px 42px;
+  background-color: #ff5733;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  border: none;
+  border-radius: 3px;
+  margin: 25px 0 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .section-contact-form button {
+    padding: 22px 80px;
+    font-size: 24px;
+    margin: 45px 0 0;
+  }
+}
+
+.section-map {
+  padding: 30px 0 0;
+  width: 65%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .section-map {
+    padding: 60px 0 0;
+  }
+}
+
+.section-map img {
+  border: 1px solid #d2cfc6;
+}
+
 /* 7. Stopka */
 
 footer p {
